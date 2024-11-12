@@ -14,5 +14,5 @@ function calcularVolume(event) {
     let volume = (comprimento * largura * altura) / 1000
 
     // Exibição do resultado
-    document.getElementById('resultado').value = `Volume do aquário: ${volume.toFixed(2)} litros`
+    document.getElementById('resultado').value = `${volume.toFixed(2)} litros`
 }
