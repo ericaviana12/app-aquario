@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo do volume de um aquário</title>
+</head>
+<body>
+    <h1>Cálculo do volume de um aquário</h1>
+    
+    <!-- Formulário para entrada de dados -->
+    <form onsubmit="calcularVolume(event)">
+        <label for="comprimento">Comprimento (cm):</label>
+        <input type="number" id="comprimento" placeholder="Digite o comprimento (em cm)" required>
+        <br>
+        
+        <label for="largura">Largura (cm):</label>
+        <input type="number" id="largura" placeholder="Digite a largura (em cm)" required>
+        <br>
+        
+        <label for="altura">Altura (cm):</label>
+        <input type="number" id="altura" placeholder="Digite a altura (em cm)" required>
+        <br>
+        
+        <button type="submit">Calcular volume</button>
+        <button type="reset">Limpar</button>
+    </form>
+    
+    <!-- Caixa de resultado -->
+    <p>
+        <label for="resultado">Resultado:</label>
+        <input type="text" id="resultado" readonly>
+    </p>
+    
+    <!-- Link para o arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
