@@ -21,6 +21,3 @@ function calcularVolume(event) {
 function limparResultado() {
     document.getElementById('resultado').value = ''
 }
-
-// Adicionando evento para limpar o resultado ao resetar o formulário
-document.querySelector('form').addEventListener('reset', limparResultado)
