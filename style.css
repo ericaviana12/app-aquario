@@ -95,7 +95,7 @@ p {                           /* Seleciona o elemento <p> */
 /* Ajuste para o input de resultado */
 #resultado {                 /* Seleciona o elemento com id "resultado" */
     width: 80%;               /* Define a largura como 80% do contêiner */
-    padding: 1rem;          /* Adiciona preenchimento interno ao input */
+    padding: 0.7rem;          /* Adiciona preenchimento interno ao input */
     border: 2px solid #4a90e2; /* Aplica uma borda de 2px e cor azul */
     border-radius: 6px;       /* Arredonda as bordas do input */
     background-color: #e6f7ff; /* Define o fundo como azul claro */
@@ -103,6 +103,6 @@ p {                           /* Seleciona o elemento <p> */
     font-size: 1.1rem;        /* Define o tamanho da fonte do input */
     font-weight: bold;        /* Torna o texto dentro do input em negrito */
     text-align: center;       /* Alinha o texto dentro do input ao centro */
-    margin-top: 1rem;       /* Define a margem superior do input */
+    margin-top: 0.5rem;       /* Define a margem superior do input */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aplica uma sombra suave ao redor do input */
 }
