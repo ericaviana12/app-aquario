@@ -95,6 +95,6 @@ button[type="reset"]:hover {   /* Aplica estilo ao botão de reset quando o mous
     font-size: 1.1rem;        /* Define o tamanho da fonte do input */
     font-weight: bold;        /* Torna o texto dentro do input em negrito */
     text-align: center;       /* Alinha o texto dentro do input ao centro */
-    margin-top: 1rem;       /* Define a margem superior do input */
+    margin-top: 0.5rem;       /* Define a margem superior do input */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aplica uma sombra suave ao redor do input */
 }
