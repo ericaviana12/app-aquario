@@ -16,3 +16,11 @@ function calcularVolume(event) {
     // Exibição do resultado
     document.getElementById('resultado').value = `${volume.toFixed(2)} litros`
 }
+
+// Função para limpar o campo de resultado ao resetar o formulário
+function limparResultado() {
+    document.getElementById('resultado').value = ''
+}
+
+// Adicionando evento para limpar o resultado ao resetar o formulário
+document.querySelector('form').addEventListener('reset', limparResultado);
