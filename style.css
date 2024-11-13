@@ -84,7 +84,8 @@ button[type="reset"]:hover {   /* Aplica estilo ao botão de reset quando o mous
 }
 
 /* Estilo da frase "Volume do aquário:" */
-p {                          /* Seleciona o elemento <p> */
+p {                           /* Seleciona o elemento <p> */
+    padding: 1rem;            /* Adiciona preenchimento interno ao input */
     font-size: 1.1rem;        /* Define o tamanho da fonte como 1.1rem */
     font-weight: bold;        /* Torna o texto em negrito */
     color: #4a90e2;           /* Define a cor do texto como azul */
