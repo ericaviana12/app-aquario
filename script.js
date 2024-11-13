@@ -19,5 +19,6 @@ function calcularVolume(event) {
 
 // Função para limpar o campo de resultado ao resetar o formulário
 function limparResultado() {
+    event.preventDefault()
     document.getElementById('resultado').value = ''
 }
