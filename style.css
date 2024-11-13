@@ -57,6 +57,7 @@ input[type="text"] {         /* Seleciona os inputs de tipo number e text */
 button[type="submit"],
 button[type="reset"] {       /* Seleciona os botões de tipo submit e reset */
     padding: 0.7rem 1.5rem;   /* Define o preenchimento interno dos botões */
+    margin-bottom: 1rem;      /* Define a margem inferior dos botões */
     font-size: 1rem;          /* Define o tamanho da fonte dos botões */
     border: none;             /* Remove a borda padrão dos botões */
     border-radius: 4px;       /* Arredonda as bordas dos botões */
